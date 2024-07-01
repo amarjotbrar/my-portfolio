@@ -1,0 +1,20 @@
+.page-selector-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    .page-link{
+        color: black;
+        transition: transform 200ms;
+        text-decoration: none;
+    }
+
+    .page-link:hover{
+        transform: scale(1.1);
+        font-weight: 600;
+        transition-duration: 200ms;
+    }
+}

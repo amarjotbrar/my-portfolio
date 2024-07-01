@@ -10,6 +10,7 @@ import { RootLayoutProps } from "./typings";
 
 //styles
 import style from './golobalStyles.module.scss'
+import PageSelector from './_components/PageSelector/PageSelector';
 
 const cx = classNames.bind(style);
 
@@ -19,7 +20,9 @@ const RootLayout = (props: RootLayoutProps) => {
         <html>
             <body className={cx('body')}>
                 <Header title="pageTitle" />
-                <div className={cx('body-content')}>{children}</div>
+                <div className={cx('body-content')}>
+                    {children}
+                </div>
             </body>
         </html>
     )
