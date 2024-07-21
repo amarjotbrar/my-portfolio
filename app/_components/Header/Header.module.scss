@@ -1,11 +1,22 @@
 .header-container{
     height: 56px;
     width: 100vw;
+    display: flex;
     position: fixed;
-    background-color: black;
+    border-bottom: solid 1px gray;
 
-    .page-title{
-        color: white;
-        margin: auto;
+    .header-start{
+        flex: 1;
+        .page-title{
+            margin: auto;
+        }
+    }
+
+    .header-middle{
+        flex: 2;
+    }
+
+    .header-end{
+        flex: 1;
     }
 }

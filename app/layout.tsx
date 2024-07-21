@@ -4,6 +4,7 @@ import classNames from 'classnames/bind';
 
 //components
 import Header from './_components/Header/Header';
+import PageSelector from './_components/PageSelector/PageSelector';
 
 //typings
 import { RootLayoutProps } from "./typings";
@@ -19,7 +20,9 @@ const RootLayout = (props: RootLayoutProps) => {
         <html>
             <body className={cx('body')}>
                 <Header title="pageTitle" />
-                <div className={cx('body-content')}>{children}</div>
+                <div className={cx('body-content')}>
+                    {children}
+                </div>
             </body>
         </html>
     )
