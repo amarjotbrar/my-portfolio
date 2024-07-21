@@ -1,6 +1,7 @@
 #dependencies
 /node_modules
 next-env.d.ts
+.env
 
 #dev
 .next
