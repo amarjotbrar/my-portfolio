@@ -4,13 +4,13 @@ import classNames from 'classnames/bind';
 
 //components
 import Header from './_components/Header/Header';
+import PageSelector from './_components/PageSelector/PageSelector';
 
 //typings
 import { RootLayoutProps } from "./typings";
 
 //styles
 import style from './golobalStyles.module.scss'
-import PageSelector from './_components/PageSelector/PageSelector';
 
 const cx = classNames.bind(style);
 
