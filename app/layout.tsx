@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: 'Amarjot',
     description: "This website showcases my professional journey, skills, and projects. It serves as a platform to highlight my work, including detailed case studies, coding projects, and creative endeavors. Explore my portfolio to see how I turn ideas into reality, solve complex problems, and continuously innovate in the tech world. Whether you're a potential employer, collaborator, or just curious about my work, you'll find a comprehensive overview of my capabilities and accomplishments here.",
     openGraph: {
-        images: ['./../public/whitebgprofile.jpg'],
+        images: ['/whitebgprofile.jpg'],
         title: "Amarjot Singh - Portfolio",
         description: 'This website showcases my professional journey, skills, and projects of Amarjot Singh.'
     }
