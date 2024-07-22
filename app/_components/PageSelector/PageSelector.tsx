@@ -12,8 +12,8 @@ const cx = classNames.bind(style);
 const PageSelector = () => {
   return (
       <div className={cx('page-selector-container')}>
-          <Link className={cx('page-link')} href={'/'}>Home</Link>
-          <Link className={cx('page-link')} href={'/about'}>About</Link>
+          {/* <Link className={cx('page-link')} href={'/'}>Home</Link>
+          <Link className={cx('page-link')} href={'/about'}>About</Link> */}
     </div>
   )
 }
