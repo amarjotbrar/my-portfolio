@@ -18,6 +18,7 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".", // Configures the base directory for resolving non-relative module names. Here "." means the directory containing tsconfig.json
     "paths": {
       "@/*": ["./src/*"]
     }
